@@ -1,0 +1,17 @@
+onboarding.LoadBonusData:
+  Context: '{}'
+  Json: |-
+  stages:
+    - FileReader $code=file path='E:\Onboarding\ETL\Fedorov\LoadBonusData.csv' $out
+    - CsvReader $code=csv Delimiter = ',' $out
+    - FieldMapper $code=mapper (
+        Employee  = '#Сотрудник'
+        Position  = '#Должность'
+        SalaryType = '#Тип выплаты'
+        Payroll = '#Премия'
+      ) $out
+    - DbInsert $code=insert tableName="onboarding.sa_SalaryBonus" type="bulk" clear='true'
+    - FileRename $code=moveFile $dep='insert' Path='E:\Onboarding\ETL\Fedorov\LoadBonusData.csv' Rewrite=true To=(Concat List=['E:\Onboarding\ETL\Fedorov\ProcessedFile\LoadBonusData', (Format Value='{0:yyyyMMdd}' Args=['@_UtcNow']), '.csv'])
+    - DBSproc $Code='exec_LoadBonusData' $dep='moveFile' Name='onboarding.usp_LoadBonusData'
+    - DBSproc $Code='exec_CalculateSalary' $dep='moveFile' Name='onboarding.usp_CalculateSalary'
+  Title: Загрузка данных по премиальным начислениям

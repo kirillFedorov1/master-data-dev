@@ -1,0 +1,411 @@
+﻿onboarding.Application__:
+  Json: |-
+    {
+     "rows": [
+      {
+       "cols": [
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "ID_Employee"
+         }
+        },
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "Date"
+         }
+        },
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "Text",
+          "nullable$": {
+           "$": "eq",
+           "arg1": {
+            "$": "field",
+            "path": "ID_ApplicationType/Code"
+           },
+           "arg2": {
+            "$": "literal",
+            "exp": "'LA'"
+           }
+          }
+         }
+        },
+        {
+         "width": 6,
+         "options": {
+          "field": "ID_ApplicationType"
+         },
+         "type": "field"
+        },
+        {
+         "width": 6,
+         "options": {
+          "field": "DateBegin",
+          "visible$": {
+           "$": "eq",
+           "arg1": {
+            "$": "field",
+            "path": "ID_ApplicationType/Code"
+           },
+           "arg2": {
+            "$": "literal",
+            "exp": "'LA'"
+           }
+          },
+          "nullable$": {
+           "$": "eq",
+           "arg1": {
+            "$": "field",
+            "path": "ID_ApplicationType/Code"
+           },
+           "arg2": {
+            "$": "literal",
+            "exp": "'AS'"
+           }
+          }
+         },
+         "type": "field"
+        },
+        {
+         "width": 6,
+         "options": {
+          "field": "DateEnd",
+          "valid$": {
+           "$": "lt",
+           "arg1": {
+            "$": "field",
+            "path": "DateBegin"
+           },
+           "arg2": {
+            "$": "field",
+            "path": "DateEnd"
+           },
+           "msg": "Дата начала должна быть меньше даты окончания"
+          },
+          "visible$": {
+           "$": "eq",
+           "arg1": {
+            "$": "field",
+            "path": "ID_ApplicationType/Code"
+           },
+           "arg2": {
+            "$": "literal",
+            "exp": "'LA'"
+           }
+          },
+          "nullable$": {
+           "$": "eq",
+           "arg1": {
+            "$": "field",
+            "path": "ID_ApplicationType/Code"
+           },
+           "arg2": {
+            "$": "literal",
+            "exp": "'AS'"
+           }
+          }
+         },
+         "type": "field"
+        }
+       ]
+      }
+     ]
+    }
+onboarding.ApplicationType__:
+  Json: |-
+    {
+     "rows": [
+      {
+       "cols": [
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "Code"
+         }
+        },
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "Title"
+         }
+        }
+       ]
+      }
+     ]
+    }
+onboarding.Bill__:
+  Json: |-
+    {
+     "rows": [
+      {
+       "cols": [
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "ID_calendar_Month"
+         }
+        },
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "ID_Employee"
+         }
+        },
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "Salary"
+         }
+        },
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "Bonus"
+         }
+        },
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "Total"
+         }
+        }
+       ]
+      }
+     ]
+    }
+onboarding.Employee__:
+  Json: |-
+    {
+     "rows": [
+      {
+       "cols": [
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "FullName"
+         }
+        },
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "Birthday"
+         }
+        },
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "DateEmployment"
+         }
+        },
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "DateDismissal"
+         }
+        },
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "Statement_o2m",
+          "custom": true
+         }
+        },
+        {
+         "width": 6,
+         "type": "fieldPathValue",
+         "options": {
+          "showFullPath": false,
+          "fieldPath": "FlagWorking_o2o/FlagWorking"
+         }
+        },
+        {
+         "width": 12,
+         "type": "field",
+         "options": {
+          "field": "Vacation_o2m",
+          "custom": true
+         }
+        },
+        {
+         "width": 12,
+         "type": "field",
+         "options": {
+          "field": "Position_hist",
+          "custom": true
+         }
+        },
+        {
+         "width": 12,
+         "options": {
+          "field": "ID_Supervisor"
+         },
+         "type": "field"
+        },
+        {
+         "width": 12,
+         "options": {
+          "field": "Bill_o2m",
+          "custom": true
+         },
+         "type": "field"
+        },
+        {
+         "width": 12,
+         "options": {
+          "field": "ID_mdt_Principal"
+         },
+         "type": "field"
+        }
+       ]
+      }
+     ]
+    }
+onboarding.Position__:
+  Json: |-
+    {
+     "rows": [
+      {
+       "cols": [
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "Code"
+         }
+        },
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "Title"
+         }
+        },
+        {
+         "width": 6,
+         "options": {
+          "field": "Salary"
+         },
+         "type": "field"
+        }
+       ]
+      }
+     ]
+    }
+onboarding.SalaryBonus__:
+  Json: |-
+    {
+     "rows": [
+      {
+       "cols": [
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "ID_calendar_Month"
+         }
+        },
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "Payroll"
+         }
+        },
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "ID_SalaryType"
+         }
+        },
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "ID_Employee"
+         }
+        },
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "Comment"
+         }
+        }
+       ]
+      }
+     ]
+    }
+onboarding.SalaryType__:
+  Json: |-
+    {
+     "rows": [
+      {
+       "cols": [
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "Code"
+         }
+        },
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "Title"
+         }
+        }
+       ]
+      }
+     ]
+    }
+onboarding.Vacation__:
+  Json: |-
+    {
+     "rows": [
+      {
+       "cols": [
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "ID_Employee"
+         }
+        },
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "DateBegin"
+         }
+        },
+        {
+         "width": 6,
+         "type": "field",
+         "options": {
+          "field": "DateEnd"
+         }
+        }
+       ]
+      }
+     ]
+    }

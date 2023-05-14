@@ -1,0 +1,148 @@
+﻿Accounting:
+  Control: 
+  ControlTemplate: 
+  Groups: 
+  Icon: 
+  ID_Control: 
+  ID_ControlTemplate: 
+  ID_Object: 
+  ID_ObjectExtender: 
+  Nodes:
+    AccDirectory:
+      Control: 
+      ControlTemplate: 
+      Groups: 
+      Icon: 
+      ID_Control: 
+      ID_ControlTemplate: 
+      ID_Object: 
+      ID_ObjectExtender: 
+      Nodes:
+        SalaryType:
+          Control: 
+          ControlTemplate: 
+          Groups: 
+          Icon: 
+          ID_Control: 
+          ID_ControlTemplate: 
+          ID_Object: onboarding.SalaryType
+          ID_ObjectExtender: 
+          Position: 
+          Title: 
+      Position: 
+      Title: Справочник
+      Title_ru: Справочник
+    Bill:
+      Control: 
+      ControlTemplate: 
+      Groups: 
+      Icon: 
+      ID_Control: 
+      ID_ControlTemplate: 
+      ID_Object: onboarding.Bill
+      ID_ObjectExtender: 
+      Nodes:
+        SalaryBonus:
+          Control: 
+          ControlTemplate: 
+          Groups: 
+          Icon: 
+          ID_Control: 
+          ID_ControlTemplate: 
+          ID_Object: onboarding.SalaryBonus
+          ID_ObjectExtender: 
+          Position: 
+          Title: 
+      Position: 
+      Title: 
+  Position: 
+  Title: Учет
+  Title_ru: Учет
+Directory:
+  Control: 
+  ControlTemplate: 
+  Groups: 
+  Icon: 
+  ID_Control: 
+  ID_ControlTemplate: 
+  ID_Object: 
+  ID_ObjectExtender: 
+  Nodes:
+    Application:
+      Control: 
+      ControlTemplate: 
+      Groups: 
+      Icon: 
+      ID_Control: 
+      ID_ControlTemplate: 
+      ID_Object: onboarding.Application
+      ID_ObjectExtender: 
+      Nodes:
+        AppType:
+          Control: 
+          ControlTemplate: 
+          Groups: 
+          Icon: 
+          ID_Control: 
+          ID_ControlTemplate: 
+          ID_Object: onboarding.ApplicationType
+          ID_ObjectExtender: 
+          Position: 
+          Title: 
+      Position: 
+      Title: 
+    Employee:
+      Control: 
+      ControlTemplate: 
+      Groups: 
+      Icon: 
+      ID_Control: 
+      ID_ControlTemplate: 
+      ID_Object: onboarding.Employee
+      ID_ObjectExtender: 
+      Nodes:
+        Birthday:
+          Control: 
+          ControlTemplate: |-
+            {
+              "extConfig": {
+                "listView": {
+                  "active": "Дни рождения",
+                  "activeChangeable": false
+                }
+              }
+            }
+          Groups: 
+          Icon: 
+          ID_Control: ListCtrl
+          ID_ControlTemplate: 
+          ID_Object: onboarding.Employee
+          ID_ObjectExtender: 
+          Position: 
+          Title: Дни рождения
+      Position: 
+      Title: 
+    Position:
+      Control: 
+      ControlTemplate: 
+      Groups: 
+      Icon: 
+      ID_Control: 
+      ID_ControlTemplate: 
+      ID_Object: onboarding.Position
+      ID_ObjectExtender: 
+      Position: 
+      Title: 
+    Vacation:
+      Control: 
+      ControlTemplate: 
+      Groups: 
+      Icon: 
+      ID_Control: 
+      ID_ControlTemplate: 
+      ID_Object: onboarding.Vacation
+      ID_ObjectExtender: 
+      Position: 
+      Title: 
+  Position: 
+  Title: Справочник

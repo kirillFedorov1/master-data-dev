@@ -1,0 +1,17 @@
+onboarding.BillNotification:
+  Header: Ваша зарплата за [[= msg[0].EventTime]] была утверждена автоматически.
+  Script: |-
+    var msg = $mdt.fetch({
+      table: "onboarding.vw_BillNotification",
+      filter: 'ID_PrincipalTo =' + $.Record.ID_PrincipalTo,
+      select: "EventTime, ID_Record"
+    });
+
+    var mdtUrl = $config('mdtUrl');
+
+    var url = mdtUrl + '/#/Accounting/Bill?form.id=' + msg[0].ID_Record
+  Text: |-
+    <div align=left>С утверждённым рассчётом Вы можете ознакомиться по
+    	<a target="_blank" href="[[= url ]]">ссылке</a>.
+    </div>
+  Title: Уведомление об автоматическом расчете зарплатной ведомости

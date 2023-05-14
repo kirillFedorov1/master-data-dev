@@ -1,0 +1,2131 @@
+﻿onboarding.Application:
+  audit_Enabled: 
+  Deleted: False
+  Description: 
+  Fields:
+    Date:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: Дата
+    DateBegin:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    DateEnd:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID_ApplicationType:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID_Employee:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    IsVacation_o2o:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: o2o
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: onboarding.vw_IsVacation
+      ID_RefObjectField: ID
+      Nullable: True
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 1
+      SqlType: 
+      Title: 
+    MDT_DateCreate:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    MDT_ID_PrincipalCreatedBy:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    Text:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: Текст заявления
+  FlagConfiguration: 
+  FlagHierarchy: 
+  HierarchyIDField: 
+  HierarchyParentField: 
+  Icon: 
+  inline_AddInRow: 
+  inline_Enabled: 
+  NullID: 
+  Physical: 
+  Settings: 
+  tag_Enabled: False
+  Title: Заявление
+  TitlePlural: 
+onboarding.ApplicationType:
+  audit_Enabled: 
+  Deleted: False
+  Description: 
+  Fields:
+    Code:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    MDT_DateCreate:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    MDT_ID_PrincipalCreatedBy:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    Title:
+      Default: True
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+  FlagConfiguration: 
+  FlagHierarchy: 
+  HierarchyIDField: 
+  HierarchyParentField: 
+  Icon: 
+  inline_AddInRow: 
+  inline_Enabled: 
+  NullID: 
+  Physical: 
+  Settings: 
+  tag_Enabled: False
+  Title: 
+  Title_ru: Тип заявлений
+  TitlePlural: 
+onboarding.Bill:
+  audit_Enabled: 
+  Deleted: False
+  Description: 
+  Fields:
+    Bonus:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: Премия
+    ID:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID_calendar_Month:
+      Default: True
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: Период
+    ID_Employee:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID_status_Status:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    MDT_DateCreate:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    MDT_ID_PrincipalCreatedBy:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    Salary:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: Оклад
+    Total:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: Итого
+  FlagConfiguration: 
+  FlagHierarchy: 
+  HierarchyIDField: 
+  HierarchyParentField: 
+  Icon: 
+  inline_AddInRow: 
+  inline_Enabled: 
+  NullID: 
+  Physical: 
+  Settings: 
+  tag_Enabled: False
+  Title: Зарплатная ведомость
+  TitlePlural: 
+onboarding.Employee:
+  audit_Enabled: 
+  Deleted: False
+  Description: 
+  Fields:
+    Bill_o2m:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: o2m
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: onboarding.Bill
+      ID_RefObjectField: ID_Employee
+      Nullable: True
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 1
+      SqlType: 
+      Title: 
+    Birthday:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: Дата рождения
+    DateDismissal:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: Дата увольнения
+    DateEmployment:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: Дата приема на работу
+    EmployeeNumber:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+      Title_ru: Табельный номер
+    FlagWorking_o2o:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: o2o
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: boolean
+      ID_RefObject: onboarding.vw_IsWorking
+      ID_RefObjectField: ID_Employee
+      Nullable: True
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 4
+      SqlType: 
+      Title: Работает
+    FullName:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: ФИО
+    ID:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID_mdt_Principal:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID_Supervisor:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: True
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: Руководитель
+    MDT_DateCreate:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    MDT_ID_PrincipalCreatedBy:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    Position_hist:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: hist
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: onboarding.Position_Employee
+      ID_RefObjectField: ID_Employee
+      Nullable: True
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 3
+      SqlType: 
+      Title: Должность
+    Statement_o2m:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: o2m
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: onboarding.Application
+      ID_RefObjectField: ID_Employee
+      Nullable: True
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 1
+      SqlType: 
+      Title: 
+    Vacation_o2m:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: o2m
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: onboarding.Vacation
+      ID_RefObjectField: ID_Employee
+      Nullable: True
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 2
+      SqlType: 
+      Title: 
+  FlagConfiguration: 
+  FlagHierarchy: 
+  HierarchyIDField: 
+  HierarchyParentField: 
+  Icon: 
+  inline_AddInRow: 
+  inline_Enabled: 
+  NullID: 
+  Physical: 
+  Settings: 
+  tag_Enabled: False
+  Title: Сотрудник
+  TitlePlural: 
+onboarding.MonthPeriod:
+  audit_Enabled: 
+  Deleted: False
+  Description: 
+  Fields:
+    ID:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID_calendar_Month:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    MDT_DateCreate:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    MDT_ID_PrincipalCreatedBy:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+  FlagConfiguration: 
+  FlagHierarchy: 
+  HierarchyIDField: 
+  HierarchyParentField: 
+  Icon: 
+  inline_AddInRow: 
+  inline_Enabled: 
+  NullID: 
+  Physical: 
+  Settings: 
+  tag_Enabled: False
+  Title: 
+  TitlePlural: 
+onboarding.Position:
+  audit_Enabled: 
+  Deleted: False
+  Description: 
+  Fields:
+    Code:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    MDT_DateCreate:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    MDT_ID_PrincipalCreatedBy:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    Salary:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: Оклад
+    Title:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+  FlagConfiguration: 
+  FlagHierarchy: 
+  HierarchyIDField: 
+  HierarchyParentField: 
+  Icon: 
+  inline_AddInRow: 
+  inline_Enabled: 
+  NullID: 
+  Physical: 
+  Settings: 
+  tag_Enabled: False
+  Title: Должность
+  TitlePlural: 
+onboarding.Position_Employee:
+  audit_Enabled: 
+  Deleted: False
+  Description: 
+  Fields:
+    DateBegin:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    DateEnd:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID_Employee:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID_Position:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    MDT_DateCreate:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    MDT_ID_PrincipalCreatedBy:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+  FlagConfiguration: 
+  FlagHierarchy: 
+  HierarchyIDField: 
+  HierarchyParentField: 
+  Icon: 
+  inline_AddInRow: 
+  inline_Enabled: 
+  NullID: 
+  Physical: 
+  Settings: 
+  tag_Enabled: False
+  Title: 
+  TitlePlural: 
+onboarding.SalaryBonus:
+  audit_Enabled: 
+  Deleted: False
+  Description: 
+  Fields:
+    Comment:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID_calendar_Month:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID_Employee:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID_SalaryType:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    MDT_DateCreate:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    MDT_ID_PrincipalCreatedBy:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    Payroll:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: Начисление
+  FlagConfiguration: 
+  FlagHierarchy: 
+  HierarchyIDField: 
+  HierarchyParentField: 
+  Icon: 
+  inline_AddInRow: 
+  inline_Enabled: 
+  NullID: 
+  Physical: 
+  Settings: 
+  tag_Enabled: False
+  Title: Доп. начисления
+  TitlePlural: 
+onboarding.SalaryType:
+  audit_Enabled: 
+  Deleted: False
+  Description: 
+  Fields:
+    Code:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    MDT_DateCreate:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    MDT_ID_PrincipalCreatedBy:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    Title:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+  FlagConfiguration: 
+  FlagHierarchy: 
+  HierarchyIDField: 
+  HierarchyParentField: 
+  Icon: 
+  inline_AddInRow: 
+  inline_Enabled: 
+  NullID: 
+  Physical: 
+  Settings: 
+  tag_Enabled: False
+  Title: Тип начислений
+  TitlePlural: 
+onboarding.Vacation:
+  audit_Enabled: 
+  Deleted: False
+  Description: 
+  Fields:
+    DateBegin:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    DateEnd:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID_Employee:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    MDT_DateCreate:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    MDT_ID_PrincipalCreatedBy:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: sys
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+  FlagConfiguration: 
+  FlagHierarchy: 
+  HierarchyIDField: 
+  HierarchyParentField: 
+  Icon: 
+  inline_AddInRow: 
+  inline_Enabled: 
+  NullID: 
+  Physical: 
+  Settings: 
+  tag_Enabled: False
+  Title: Отпуск
+  TitlePlural: 
+onboarding.vw_BillNotification:
+  audit_Enabled: 
+  Deleted: False
+  Description: 
+  Fields:
+    EmailTo:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    Event:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    EventTime:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID_PrincipalTo:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID_Record:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+  FlagConfiguration: 
+  FlagHierarchy: 
+  HierarchyIDField: 
+  HierarchyParentField: 
+  Icon: 
+  inline_AddInRow: 
+  inline_Enabled: 
+  NullID: 
+  Physical: 
+  Readonly: True
+  Settings: 
+  tag_Enabled: False
+  Title: 
+  TitlePlural: 
+onboarding.vw_IsVacation:
+  audit_Enabled: 
+  Deleted: False
+  Description: 
+  Fields:
+    FlagVacation:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+    ID_Application:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+  FlagConfiguration: 
+  FlagHierarchy: 
+  HierarchyIDField: 
+  HierarchyParentField: 
+  Icon: 
+  inline_AddInRow: 
+  inline_Enabled: 
+  NullID: 
+  Physical: 
+  Readonly: True
+  Settings: 
+  tag_Enabled: False
+  Title: 
+  TitlePlural: 
+onboarding.vw_IsWorking:
+  audit_Enabled: 
+  Deleted: False
+  Description: 
+  Fields:
+    FlagWorking:
+      Default: True
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: Работает
+    ID_Employee:
+      Default: 
+      Deleted: False
+      Description: 
+      DynamicFkObjectPath: 
+      FormatMask: 
+      ID_DynamicFkRecordObjectField: 
+      ID_ObjectFieldKind: 
+      ID_ObjectFieldRole: 
+      ID_ObjectFieldType: 
+      ID_RefObject: 
+      ID_RefObjectField: 
+      Nullable: 
+      Physical: 
+      Position: 
+      Primary: 
+      Readonly: 
+      RecordCount: 
+      Regex: 
+      SortOrder: 0
+      SqlType: 
+      Title: 
+  FlagConfiguration: 
+  FlagHierarchy: 
+  HierarchyIDField: 
+  HierarchyParentField: 
+  Icon: 
+  inline_AddInRow: 
+  inline_Enabled: 
+  NullID: 
+  Physical: 
+  Readonly: True
+  Settings: 
+  tag_Enabled: False
+  Title: 
+  TitlePlural: 

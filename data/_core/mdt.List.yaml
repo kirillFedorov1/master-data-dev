@@ -1,0 +1,246 @@
+﻿onboarding.Application__:
+  Columns:
+    Date:
+      Description: 
+      Position: 0
+      Title: 
+      Type: 
+      Width: 
+    ID_ApplicationType$:
+      Description: 
+      FlagIconOnly: False
+      Position: 3
+      Title: 
+      Type: 
+      Width: 
+    ID_Employee$:
+      Description: 
+      Position: 1
+      Title: 
+      Type: 
+      Width: 
+    Text:
+      Description: 
+      Position: 2
+      Title: 
+      Type: 
+      Width: 
+  Description: 
+  Tasks: 
+  Title: 
+onboarding.ApplicationType__:
+  Columns:
+    Code:
+      Description: 
+      Position: 0
+      Title: 
+      Type: 
+      Width: 
+    Title:
+      Description: 
+      Position: 1
+      Title: 
+      Type: 
+      Width: 
+  Description: 
+  Tasks: 
+  Title: 
+onboarding.Bill__:
+  Columns:
+    Bill_o2m$:
+      Description: 
+      FlagIconOnly: False
+      Position: 7
+      Title: 
+      Type: 
+      Width: 
+    Bonus:
+      Description: 
+      FlagIconOnly: False
+      Position: 3
+      Title: 
+      Type: 
+      Width: 
+    DateDismissal:
+      Description: 
+      Position: 3
+      Title: 
+      Type: 
+      Width: 
+    DateEmployment:
+      Description: 
+      Position: 2
+      Title: 
+      Type: 
+      Width: 
+    FlagWorking_o2o$:
+      Description: 
+      FlagIconOnly: False
+      Position: 5
+      Title: 
+      Type: 
+      Width: 
+    FullName:
+      Description: 
+      Position: 0
+      Title: 
+      Type: 
+      Width: 
+    ID_calendar_Month$:
+      Description: 
+      FlagIconOnly: False
+      Position: 0
+      Title: 
+      Type: 
+      Width: 
+    ID_Employee$:
+      Description: 
+      Position: 1
+      Title: 
+      Type: 
+      Width: 
+    ID_mdt_Principal$:
+      Description: 
+      FlagIconOnly: False
+      Position: 8
+      Title: 
+      Type: 
+      Width: 
+    ID_status_Status$:
+      Description: 
+      FlagIconOnly: False
+      Position: 5
+      Title: 
+      Type: 
+      Width: 
+    ID_Supervisor$:
+      Description: 
+      FlagIconOnly: False
+      Position: 6
+      Title: 
+      Type: 
+      Width: 
+    Position_hist/ID_Position$:
+      Description: 
+      FlagIconOnly: False
+      Position: 4
+      Title: 
+      Type: 
+      Width: 
+    Salary:
+      Description: 
+      FlagIconOnly: False
+      Position: 2
+      Title: 
+      Type: 
+      Width: 
+    Total:
+      Description: 
+      FlagIconOnly: False
+      Position: 4
+      Title: 
+      Type: 
+      Width: 
+  Description: 
+  Tasks: '[{"flagSendIds":false,"flagSave":false,"flagConfig":true,"type":null,"title":"Расчет","taskCode":"CalculateSalary"}]'
+  Title: 
+onboarding.Position__:
+  Columns:
+    Code:
+      Description: 
+      Position: 0
+      Title: 
+      Type: 
+      Width: 
+    Salary:
+      Description: 
+      FlagIconOnly: False
+      Position: 2
+      Title: 
+      Type: 
+      Width: 
+    Title:
+      Description: 
+      Position: 1
+      Title: 
+      Type: 
+      Width: 
+  Description: 
+  Tasks: 
+  Title: 
+onboarding.SalaryBonus__:
+  Columns:
+    Comment:
+      Description: 
+      Position: 4
+      Title: 
+      Type: 
+      Width: 
+    ID_calendar_Month$:
+      Description: 
+      Position: 0
+      Title: 
+      Type: 
+      Width: 
+    ID_Employee$:
+      Description: 
+      Position: 3
+      Title: 
+      Type: 
+      Width: 
+    ID_SalaryType$:
+      Description: 
+      Position: 2
+      Title: 
+      Type: 
+      Width: 
+    Payroll:
+      Description: 
+      Position: 1
+      Title: 
+      Type: 
+      Width: 
+  Description: 
+  Tasks: 
+  Title: 
+onboarding.SalaryType__:
+  Columns:
+    Code:
+      Description: 
+      Position: 0
+      Title: 
+      Type: 
+      Width: 
+    Title:
+      Description: 
+      Position: 1
+      Title: 
+      Type: 
+      Width: 
+  Description: 
+  Tasks: 
+  Title: 
+onboarding.Vacation__:
+  Columns:
+    DateBegin:
+      Description: 
+      Position: 1
+      Title: 
+      Type: 
+      Width: 
+    DateEnd:
+      Description: 
+      Position: 2
+      Title: 
+      Type: 
+      Width: 
+    ID_Employee$:
+      Description: 
+      FlagIconOnly: False
+      Position: 0
+      Title: 
+      Type: 
+      Width: 
+  Description: 
+  Tasks: 
+  Title: 

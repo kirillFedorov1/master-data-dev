@@ -1,0 +1,3 @@
+using:
+    "git@gitlab.ics-it.ru:mod/calendar.git": "release/29"
+    mdti: "2.0"
